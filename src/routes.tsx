@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Home from './pages/Home';
+import Home from './containers/Home';
 
 export default memo(() => (
     <Switch>
