@@ -18,7 +18,7 @@ const App: React.FC = () => (
     <ThemeProvider
         theme={{ ...theme, colors, fontFamily: 'Roboto Mono, monospace' }}
     >
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes />
             <GlobalStyle />
         </Router>

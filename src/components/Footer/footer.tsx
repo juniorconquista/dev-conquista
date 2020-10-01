@@ -25,18 +25,32 @@ const Footer: React.FC = () => {
                 <Logo />
                 <Box styling="row" mt="10px">
                     <Box styling="row" margin="5px">
-                        <Linkedin
-                            width="20px"
-                            height="20px"
-                            fill={theme.colors.text}
-                        />
+                        <a
+                            href="https://www.linkedin.com/in/junior-conquista/"
+                            rel="noreferrer"
+                            // eslint-disable-next-line react/jsx-no-target-blank
+                            target="_blank"
+                        >
+                            <Linkedin
+                                width="20px"
+                                height="20px"
+                                fill={theme.colors.text}
+                            />
+                        </a>
                     </Box>
                     <Box styling="row" margin="5px">
-                        <Github
-                            width="20px"
-                            height="20px"
-                            fill={theme.colors.text}
-                        />
+                        <a
+                            href="https://github.com/juniorconquista/"
+                            rel="noreferrer"
+                            // eslint-disable-next-line react/jsx-no-target-blank
+                            target="_blank"
+                        >
+                            <Github
+                                width="20px"
+                                height="20px"
+                                fill={theme.colors.text}
+                            />
+                        </a>
                     </Box>
                     <Box styling="row" margin="5px">
                         <Send

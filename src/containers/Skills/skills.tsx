@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
 import { H1, H4, P, Span } from 'quarks-ui/dist/ds/typography';
 
-import { skills } from '../../utils/skills';
+import Carousel from '../../components/Carousel';
 
 const Skills: React.FC = () => (
     <Box
@@ -13,27 +13,16 @@ const Skills: React.FC = () => (
         justifyContent="space-around"
     >
         <Box styling="column" alignItems="flex-start" width="55%" p="20px">
-            <H4 styling="base" opacity="0.6" mb="20px">
+            <H4 styling="base" opacity="0.6" mb="40px">
                 Skills
             </H4>
             <Box
-                styling="grid"
+                styling="column"
                 width="100%"
-                gridTemplateColumns="repeat(3, 4fr)"
-                gridGap="10px"
-                maxHeight="300px"
-                overflow="auto"
+                height="185px"
+                position="relative"
             >
-                {skills.map((skill) => (
-                    <Box
-                        styling="row"
-                        bg="background.dark"
-                        p="20px"
-                        width="100%"
-                    >
-                        <P styling="base">{skill.name}</P>
-                    </Box>
-                ))}
+                <Carousel />
             </Box>
         </Box>
         <Box styling="column" alignItems="flex-start" width="45%" p="20px">
@@ -45,10 +34,10 @@ const Skills: React.FC = () => (
             </H1>
             <P
                 styling="base"
-                opacity="0.6"
                 mb="20px"
                 textAlign="justify"
                 letterSpacing="1px"
+                lineHeight="18px"
             >
                 <Span color="secondary.dark">Frontend developer</Span> for about{' '}
                 <Span color="secondary.default">4 years</Span> with a focus on
@@ -63,7 +52,7 @@ const Skills: React.FC = () => (
                 <Span color="secondary.default">React</Span>.
             </P>
 
-            <P styling="base" opacity="0.6" textAlign="justify">
+            <P styling="base" textAlign="justify" lineHeight="18px">
                 Currently, I work at a reference company in{' '}
                 <Span color="secondary.default">innovation</Span>, digital
                 transformation and development called{' '}

@@ -19,32 +19,48 @@ const Header: React.FC = () => {
             bg="background.dark"
             justifyContent="space-between"
             padding="10px 15px"
+            borderBottom="1px solid"
+            borderColor="primary.default"
             css={css({
                 zIndex: 10,
             })}
         >
             <Logo />
             <Box styling="row">
-                <Box styling="row" margin="5px">
-                    <Linkedin
-                        width="20px"
-                        height="20px"
-                        fill={theme.colors.text}
-                    />
-                    <P styling="base" pl="5px">
-                        linkedin
-                    </P>
-                </Box>
-                <Box styling="row" margin="5px">
-                    <Github
-                        width="20px"
-                        height="20px"
-                        fill={theme.colors.text}
-                    />
-                    <P styling="base" pl="5px">
-                        github
-                    </P>
-                </Box>
+                <a
+                    href="https://www.linkedin.com/in/junior-conquista/"
+                    rel="noreferrer"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                >
+                    <Box styling="row" margin="5px">
+                        <Linkedin
+                            width="20px"
+                            height="20px"
+                            fill={theme.colors.text}
+                        />
+                        <P styling="base" pl="5px">
+                            linkedin
+                        </P>
+                    </Box>
+                </a>
+                <a
+                    href="https://github.com/juniorconquista/"
+                    rel="noreferrer"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                >
+                    <Box styling="row" margin="5px">
+                        <Github
+                            width="20px"
+                            height="20px"
+                            fill={theme.colors.text}
+                        />
+                        <P styling="base" pl="5px">
+                            github
+                        </P>
+                    </Box>
+                </a>
             </Box>
         </Box>
     );
