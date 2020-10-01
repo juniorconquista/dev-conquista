@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "359337fa3cbc4bd1f07e890316795dc8",
+    "revision": "389acd6073871595f1a94eb417bb5cdb",
     "url": "/dev-conquista/index.html"
   },
   {
-    "revision": "fdab87bb7c39bd07fb11",
+    "revision": "996961e9c383bbe66e16",
     "url": "/dev-conquista/static/css/main.7b2def08.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dev-conquista/static/js/2.9a94029f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdab87bb7c39bd07fb11",
-    "url": "/dev-conquista/static/js/main.59f39a15.chunk.js"
+    "revision": "996961e9c383bbe66e16",
+    "url": "/dev-conquista/static/js/main.37365dfb.chunk.js"
   },
   {
     "revision": "180a9501cf2bc81303c2",
