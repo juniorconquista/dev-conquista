@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dev-conquista/static/css/main.7b2def08.chunk.css",
-    "main.js": "/dev-conquista/static/js/main.37365dfb.chunk.js",
-    "main.js.map": "/dev-conquista/static/js/main.37365dfb.chunk.js.map",
+    "main.js": "/dev-conquista/static/js/main.721b3c4f.chunk.js",
+    "main.js.map": "/dev-conquista/static/js/main.721b3c4f.chunk.js.map",
     "runtime-main.js": "/dev-conquista/static/js/runtime-main.191d26b9.js",
     "runtime-main.js.map": "/dev-conquista/static/js/runtime-main.191d26b9.js.map",
     "static/js/2.9a94029f.chunk.js": "/dev-conquista/static/js/2.9a94029f.chunk.js",
     "static/js/2.9a94029f.chunk.js.map": "/dev-conquista/static/js/2.9a94029f.chunk.js.map",
     "index.html": "/dev-conquista/index.html",
-    "precache-manifest.405f4d4da3956689c2e0de8a69824485.js": "/dev-conquista/precache-manifest.405f4d4da3956689c2e0de8a69824485.js",
+    "precache-manifest.86567270fc07cb5edff22ddbecda3bad.js": "/dev-conquista/precache-manifest.86567270fc07cb5edff22ddbecda3bad.js",
     "service-worker.js": "/dev-conquista/service-worker.js",
     "static/css/main.7b2def08.chunk.css.map": "/dev-conquista/static/css/main.7b2def08.chunk.css.map",
     "static/js/2.9a94029f.chunk.js.LICENSE.txt": "/dev-conquista/static/js/2.9a94029f.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.191d26b9.js",
     "static/js/2.9a94029f.chunk.js",
     "static/css/main.7b2def08.chunk.css",
-    "static/js/main.37365dfb.chunk.js"
+    "static/js/main.721b3c4f.chunk.js"
   ]
 }
