@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/dev-conquista/static/css/main.7b2def08.chunk.css",
+    "main.js": "/dev-conquista/static/js/main.0b4d14b4.chunk.js",
+    "main.js.map": "/dev-conquista/static/js/main.0b4d14b4.chunk.js.map",
+    "runtime-main.js": "/dev-conquista/static/js/runtime-main.191d26b9.js",
+    "runtime-main.js.map": "/dev-conquista/static/js/runtime-main.191d26b9.js.map",
+    "static/js/2.9a94029f.chunk.js": "/dev-conquista/static/js/2.9a94029f.chunk.js",
+    "static/js/2.9a94029f.chunk.js.map": "/dev-conquista/static/js/2.9a94029f.chunk.js.map",
+    "index.html": "/dev-conquista/index.html",
+    "precache-manifest.fbdd12df99bffe1c0670dc272b792b73.js": "/dev-conquista/precache-manifest.fbdd12df99bffe1c0670dc272b792b73.js",
+    "service-worker.js": "/dev-conquista/service-worker.js",
+    "static/css/main.7b2def08.chunk.css.map": "/dev-conquista/static/css/main.7b2def08.chunk.css.map",
+    "static/js/2.9a94029f.chunk.js.LICENSE.txt": "/dev-conquista/static/js/2.9a94029f.chunk.js.LICENSE.txt",
+    "static/media/bg.png": "/dev-conquista/static/media/bg.fb0efbe0.png",
+    "static/media/eye.13c19830.svg": "/dev-conquista/static/media/eye.13c19830.svg",
+    "static/media/fork.de855577.svg": "/dev-conquista/static/media/fork.de855577.svg",
+    "static/media/github.1f2d8a9b.svg": "/dev-conquista/static/media/github.1f2d8a9b.svg",
+    "static/media/javascript.25b6863a.svg": "/dev-conquista/static/media/javascript.25b6863a.svg",
+    "static/media/jest.5e7233cf.svg": "/dev-conquista/static/media/jest.5e7233cf.svg",
+    "static/media/link.611fc789.svg": "/dev-conquista/static/media/link.611fc789.svg",
+    "static/media/linkedin.007eb41a.svg": "/dev-conquista/static/media/linkedin.007eb41a.svg",
+    "static/media/message.98cd8076.svg": "/dev-conquista/static/media/message.98cd8076.svg",
+    "static/media/phone.de6928a8.svg": "/dev-conquista/static/media/phone.de6928a8.svg",
+    "static/media/reactjs.5ab3553a.svg": "/dev-conquista/static/media/reactjs.5ab3553a.svg",
+    "static/media/send.382f1e7d.svg": "/dev-conquista/static/media/send.382f1e7d.svg",
+    "static/media/star.23a0f965.svg": "/dev-conquista/static/media/star.23a0f965.svg",
+    "static/media/typescript.1fa42802.svg": "/dev-conquista/static/media/typescript.1fa42802.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.191d26b9.js",
+    "static/js/2.9a94029f.chunk.js",
+    "static/css/main.7b2def08.chunk.css",
+    "static/js/main.0b4d14b4.chunk.js"
+  ]
+}
