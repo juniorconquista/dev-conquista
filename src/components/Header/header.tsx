@@ -22,11 +22,7 @@ const Header: React.FC = () => {
             padding="10px 15px"
             borderBottom="1px solid"
             borderColor="primary.default"
-            justifyContent={{
-                mobile: 'center',
-                tablet: 'space-between',
-                desktop: 'space-between',
-            }}
+            justifyContent="space-between"
             css={css({
                 zIndex: 10,
             })}
@@ -34,7 +30,13 @@ const Header: React.FC = () => {
             <Logo />
             <Box
                 styling="row"
-                display={{ mobile: 'none', tablet: 'flex', desktop: 'flex' }}
+                css={css({
+                    '@media (max-width: 600px)': {
+                        a: {
+                            display: 'none',
+                        },
+                    },
+                })}
             >
                 <a
                     href="https://www.linkedin.com/in/junior-conquista/"
