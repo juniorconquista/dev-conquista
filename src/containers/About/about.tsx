@@ -8,26 +8,26 @@ import { ReactComponent as ReactJs } from '../../assets/icons/reactjs.svg';
 import { ReactComponent as Javascript } from '../../assets/icons/javascript.svg';
 import { ReactComponent as Typescript } from '../../assets/icons/typescript.svg';
 import { ReactComponent as Jest } from '../../assets/icons/jest.svg';
-import BG from '../../assets/img/bg.png';
+import { ReactComponent as Bb } from '../../assets/icons/bg.svg';
 
 const About: React.FC = () => {
     const theme = useTheme();
     return (
         <Box
             styling="row"
-            bg="background.dark"
+            bg="background.default"
             width="100%"
-            p="5em"
+            p={{ mobile: '2em', tablet: '2em', desktop: '4em' }}
             mt="50px"
             justifyContent="space-between"
-            css={css({
-                backgroundImage: `url(${BG})`,
-                backgroundPosition: 'right',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-            })}
+            position="relative"
+            overflow="hidden"
         >
-            <Box styling="column" alignItems="flex-start" width="45%">
+            <Box
+                styling="column"
+                alignItems="flex-start"
+                width={{ mobile: '100%', tablet: '100%', desktop: '50%' }}
+            >
                 <H3 styling="base" bg="secondary.default" p="10px" mb="20px">
                     Frontend Developer
                 </H3>
@@ -49,31 +49,50 @@ const About: React.FC = () => {
                     </P>
                 </Box>
             </Box>
-            <Box>
+            <Box
+                display={{ mobile: 'none', tablet: 'none', desktop: 'flex' }}
+                css={css({
+                    zIndex: 9,
+                })}
+            >
                 <Jest
-                    width="120px"
-                    height="120px"
+                    width="100px"
+                    height="100px"
                     color={`${theme.colors.text}26`}
                     style={{ margin: '10px' }}
                 />
                 <Typescript
-                    width="120px"
-                    height="120px"
+                    width="100px"
+                    height="100px"
                     color={`${theme.colors.text}26`}
                     style={{ margin: '10px' }}
                 />
                 <Javascript
-                    width="120px"
-                    height="120px"
+                    width="100px"
+                    height="100px"
                     color={`${theme.colors.text}26`}
                     style={{ margin: '10px' }}
                 />
                 <ReactJs
-                    width="120px"
-                    height="120px"
+                    width="100px"
+                    height="100px"
                     color={`${theme.colors.text}26`}
                     style={{ margin: '10px' }}
                 />
+            </Box>
+            <Box
+                position="absolute"
+                right="0px"
+                display="flex"
+                css={css({
+                    zIndex: 8,
+                    svg: {
+                        height: '320px',
+                        width: 'auto',
+                    },
+                })}
+            >
+                <Bb color={`${theme.colors.primary.default}`} />
             </Box>
         </Box>
     );

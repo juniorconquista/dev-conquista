@@ -160,6 +160,9 @@ table {
 button {
     border: 0;
 }
+button:focus {
+    outline: none;
+}
 
 .Toastify__toast-container:not(.toast_notification_container) {
     display: none;

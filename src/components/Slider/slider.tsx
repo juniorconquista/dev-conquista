@@ -24,9 +24,10 @@ const Dot = ({ active }: { active: boolean }) => {
         transform: active ? `scale(1.5)` : `scale(1)`,
         config: { mass: 5, tension: 500, friction: 80 },
     });
-    //@ts-ignore
+
     return (
         <a.div
+            //@ts-ignore
             style={{ opacity: opacity.to((o) => o), transform, ...styles.dot }}
         />
     );
@@ -182,10 +183,11 @@ const Slider: React.FC<Props> = ({
             ) : null}
             <div {...bind()} style={{ ...style, ...styles.container }}>
                 {springs.map(({ x }, i) => (
-                    // @ts-ignore
                     <a.div
                         key={i}
+                        //@ts-ignore
                         style={{ ...styles.item, width, x }}
+                        //@ts-ignore
                         children={children(items[i], i)}
                     />
                 ))}

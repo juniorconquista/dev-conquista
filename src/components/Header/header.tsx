@@ -6,6 +6,7 @@ import { useTheme } from 'quarks-ui/dist/ds/hooks';
 
 import { ReactComponent as Linkedin } from '../../assets/icons/linkedin.svg';
 import { ReactComponent as Github } from '../../assets/icons/github.svg';
+import { ReactComponent as Sun } from '../../assets/icons/sun.svg';
 import Logo from '../Logo';
 
 const Header: React.FC = () => {
@@ -16,17 +17,25 @@ const Header: React.FC = () => {
             position="fixed"
             top="0"
             width="100%"
-            bg="background.dark"
-            justifyContent="space-between"
+            minHeight="50px"
+            bg="background.default"
             padding="10px 15px"
             borderBottom="1px solid"
             borderColor="primary.default"
+            justifyContent={{
+                mobile: 'center',
+                tablet: 'space-between',
+                desktop: 'space-between',
+            }}
             css={css({
                 zIndex: 10,
             })}
         >
             <Logo />
-            <Box styling="row">
+            <Box
+                styling="row"
+                display={{ mobile: 'none', tablet: 'flex', desktop: 'flex' }}
+            >
                 <a
                     href="https://www.linkedin.com/in/junior-conquista/"
                     rel="noreferrer"
@@ -61,6 +70,18 @@ const Header: React.FC = () => {
                         </P>
                     </Box>
                 </a>
+                <button
+                    onClick={theme.toggleTheme}
+                    style={{
+                        backgroundColor: 'transparent',
+                        border: 'none',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        cursor: 'pointer',
+                    }}
+                >
+                    <Sun width="20px" height="20px" fill={theme.colors.text} />
+                </button>
             </Box>
         </Box>
     );

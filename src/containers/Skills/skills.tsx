@@ -6,13 +6,20 @@ import Carousel from '../../components/Carousel';
 
 const Skills: React.FC = () => (
     <Box
-        styling="row"
-        bg="primary.dark"
+        //@ts-ignore
+        styling={{ mobile: 'column', tablet: 'column', desktop: 'row' }}
+        bg="primary.default"
         width="100%"
-        p="5em"
+        p={{ mobile: '2em', tablet: '2em', desktop: '5em' }}
         justifyContent="space-around"
     >
-        <Box styling="column" alignItems="flex-start" width="55%" p="20px">
+        <Box
+            styling="column"
+            alignItems="flex-start"
+            width={{ mobile: '100%', tablet: '100%', desktop: '50%' }}
+            order={{ mobile: 2, tablet: 2, desktop: 1 }}
+            p={{ mobile: '5px', tablet: '10px', desktop: '20px' }}
+        >
             <H4 styling="base" opacity="0.6" mb="40px">
                 Skills
             </H4>
@@ -25,7 +32,13 @@ const Skills: React.FC = () => (
                 <Carousel />
             </Box>
         </Box>
-        <Box styling="column" alignItems="flex-start" width="45%" p="20px">
+        <Box
+            styling="column"
+            alignItems="flex-start"
+            width={{ mobile: '100%', tablet: '100%', desktop: '50%' }}
+            order={{ mobile: 1, tablet: 1, desktop: 2 }}
+            p={{ mobile: '5px', tablet: '10px', desktop: '20px' }}
+        >
             <H4 styling="base" opacity="0.6" mb="20px">
                 Introduce
             </H4>

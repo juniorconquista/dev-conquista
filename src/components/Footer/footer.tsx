@@ -17,11 +17,23 @@ const Footer: React.FC = () => {
             styling="row"
             width="100%"
             bg="primary.default"
-            justifyContent="space-between"
+            justifyContent={{
+                mobile: 'center',
+                tablet: 'center',
+                desktop: 'space-between',
+            }}
             padding="0em 3em"
             minHeight="15em"
+            flexDirection={{
+                mobile: 'column',
+                tablet: 'column',
+                desktop: 'row',
+            }}
         >
-            <Box styling="column">
+            <Box
+                styling="column"
+                mb={{ mobile: '30px', tablet: '20px', desktop: '0px' }}
+            >
                 <Logo />
                 <Box styling="row" mt="10px">
                     <Box styling="row" margin="5px">

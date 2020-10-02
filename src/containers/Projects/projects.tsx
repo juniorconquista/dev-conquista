@@ -36,15 +36,19 @@ const Projects: React.FC = () => {
     return (
         <Box
             styling="row"
-            bg="background.dark"
+            bg="background.default"
             width="100%"
-            p="5em"
+            p={{ mobile: '2em', tablet: '2em', desktop: '5em' }}
             justifyContent="space-between"
         >
             <Box
                 styling="grid"
                 width="100%"
-                gridTemplateColumns="repeat(3, 4fr)"
+                gridTemplateColumns={{
+                    mobile: 'repeat(1, 4fr)',
+                    tablet: 'repeat(2, 4fr)',
+                    desktop: 'repeat(3, 4fr)',
+                }}
                 gridGap="20px"
                 position="relative"
             >
@@ -52,7 +56,7 @@ const Projects: React.FC = () => {
                     styling="column"
                     alignItems="flex-start"
                     height="100%"
-                    p="20px"
+                    p={{ mobile: '5px', tablet: '10px', desktop: '20px' }}
                 >
                     <H1 styling="base" mb="20px">
                         Tech Contributions
@@ -70,6 +74,7 @@ const Projects: React.FC = () => {
                             height="100%"
                             alignItems="flex-start"
                             p="20px"
+                            key={repository.id}
                         >
                             <Box
                                 styling="row"

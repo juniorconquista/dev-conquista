@@ -1,4 +1,5 @@
 export interface Repository {
+    id: number;
     name: string;
     fork: boolean;
     html_url: string;
