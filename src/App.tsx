@@ -27,8 +27,7 @@ const App: React.FC = () => {
     theme.colors = useMemo(
         () => ({
             ...theme.colors,
-            ...colors(themeMode === 'light'),
-            dark: false,
+            ...colors(themeMode === 'dark'),
         }),
         [themeMode],
     );
