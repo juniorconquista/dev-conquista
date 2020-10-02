@@ -83,12 +83,15 @@ const About: React.FC = () => {
             <Box
                 position="absolute"
                 right="0px"
-                display="flex"
+                display={{ mobile: 'none', tablet: 'none', desktop: 'flex' }}
                 css={css({
                     zIndex: 8,
                     svg: {
                         height: '320px',
                         width: 'auto',
+                        '@media (max-width: 1020px)': {
+                            display: 'none',
+                        },
                     },
                 })}
             >
