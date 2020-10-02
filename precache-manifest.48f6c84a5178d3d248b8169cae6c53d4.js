@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1a6ad8b13917c608ffaa16262405887",
+    "revision": "bcaad85c9c785da6dc65c52e5196f1f1",
     "url": "/dev-conquista/index.html"
   },
   {
-    "revision": "740d6c3a1a52455f0ee3",
-    "url": "/dev-conquista/static/css/main.3980742f.chunk.css"
+    "revision": "03c5b41b9522936de995",
+    "url": "/dev-conquista/static/css/main.b97a6267.chunk.css"
   },
   {
-    "revision": "419a10a8402a49be54b5",
-    "url": "/dev-conquista/static/js/2.9a94029f.chunk.js"
+    "revision": "d9367736c816231dc62f",
+    "url": "/dev-conquista/static/js/2.e26746c4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/dev-conquista/static/js/2.9a94029f.chunk.js.LICENSE.txt"
+    "url": "/dev-conquista/static/js/2.e26746c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "740d6c3a1a52455f0ee3",
-    "url": "/dev-conquista/static/js/main.721b3c4f.chunk.js"
+    "revision": "03c5b41b9522936de995",
+    "url": "/dev-conquista/static/js/main.13546c84.chunk.js"
   },
   {
     "revision": "180a9501cf2bc81303c2",
     "url": "/dev-conquista/static/js/runtime-main.191d26b9.js"
   },
   {
-    "revision": "fb0efbe0f83962aa57882d633399d27f",
-    "url": "/dev-conquista/static/media/bg.fb0efbe0.png"
+    "revision": "bb4a861a0ea31c6844b84081f4f4f994",
+    "url": "/dev-conquista/static/media/bg.bb4a861a.svg"
   },
   {
     "revision": "13c19830515ad983f49626e4da30a612",
@@ -76,7 +76,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dev-conquista/static/media/star.23a0f965.svg"
   },
   {
-    "revision": "1fa4280237c2f9954d01630a9d47100a",
-    "url": "/dev-conquista/static/media/typescript.1fa42802.svg"
+    "revision": "169057c51023b3e42f85b9ddd214306e",
+    "url": "/dev-conquista/static/media/sun.169057c5.svg"
+  },
+  {
+    "revision": "17a0297e00aefcda1095273c0dce0209",
+    "url": "/dev-conquista/static/media/typescript.17a0297e.svg"
   }
 ]);
