@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dev-conquista/static/css/main.b97a6267.chunk.css",
-    "main.js": "/dev-conquista/static/js/main.13546c84.chunk.js",
-    "main.js.map": "/dev-conquista/static/js/main.13546c84.chunk.js.map",
+    "main.css": "/dev-conquista/static/css/main.befca9f8.chunk.css",
+    "main.js": "/dev-conquista/static/js/main.6c2d6cae.chunk.js",
+    "main.js.map": "/dev-conquista/static/js/main.6c2d6cae.chunk.js.map",
     "runtime-main.js": "/dev-conquista/static/js/runtime-main.191d26b9.js",
     "runtime-main.js.map": "/dev-conquista/static/js/runtime-main.191d26b9.js.map",
     "static/js/2.e26746c4.chunk.js": "/dev-conquista/static/js/2.e26746c4.chunk.js",
     "static/js/2.e26746c4.chunk.js.map": "/dev-conquista/static/js/2.e26746c4.chunk.js.map",
     "index.html": "/dev-conquista/index.html",
-    "precache-manifest.48f6c84a5178d3d248b8169cae6c53d4.js": "/dev-conquista/precache-manifest.48f6c84a5178d3d248b8169cae6c53d4.js",
+    "precache-manifest.4d5c1f16cafdabccd7f731603226a42d.js": "/dev-conquista/precache-manifest.4d5c1f16cafdabccd7f731603226a42d.js",
     "service-worker.js": "/dev-conquista/service-worker.js",
-    "static/css/main.b97a6267.chunk.css.map": "/dev-conquista/static/css/main.b97a6267.chunk.css.map",
+    "static/css/main.befca9f8.chunk.css.map": "/dev-conquista/static/css/main.befca9f8.chunk.css.map",
     "static/js/2.e26746c4.chunk.js.LICENSE.txt": "/dev-conquista/static/js/2.e26746c4.chunk.js.LICENSE.txt",
     "static/media/bg.bb4a861a.svg": "/dev-conquista/static/media/bg.bb4a861a.svg",
     "static/media/eye.13c19830.svg": "/dev-conquista/static/media/eye.13c19830.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.191d26b9.js",
     "static/js/2.e26746c4.chunk.js",
-    "static/css/main.b97a6267.chunk.css",
-    "static/js/main.13546c84.chunk.js"
+    "static/css/main.befca9f8.chunk.css",
+    "static/js/main.6c2d6cae.chunk.js"
   ]
 }
