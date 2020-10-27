@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useTheme } from 'quarks-ui/dist/ds/hooks';
-import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
-import { H1, P } from 'quarks-ui/dist/ds/typography';
+import { Box } from 'quarks-ui';
+import { H1, P } from 'quarks-ui';
 
 import { ReactComponent as Link } from '../../assets/icons/link.svg';
 import { ReactComponent as Eye } from '../../assets/icons/eye.svg';

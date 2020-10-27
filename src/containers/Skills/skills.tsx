@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
-import { H1, H4, P, Span } from 'quarks-ui/dist/ds/typography';
+import { Box } from 'quarks-ui';
+import { H1, H4, P, Span } from 'quarks-ui';
 
 import Carousel from '../../components/Carousel';
 
@@ -52,10 +52,10 @@ const Skills: React.FC = () => (
                 letterSpacing="1px"
                 lineHeight="18px"
             >
-                <Span color="secondary.dark">Frontend developer</Span> for about{' '}
-                <Span color="secondary.default">4 years</Span> with a focus on
-                developing custom applications, automation and integrations,
-                passionate about{' '}
+                <Span color="secondary.default">Frontend developer</Span> for
+                about <Span color="secondary.default">4 years</Span> with a
+                focus on developing custom applications, automation and
+                integrations, passionate about{' '}
                 <Span color="secondary.default">new technologies</Span> and
                 always learning and challenging me. I recently worked on the
                 development of a gamification application called{' '}

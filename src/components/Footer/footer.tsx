@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
-import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
-import { H3, P } from 'quarks-ui/dist/ds/typography';
+import { Box } from 'quarks-ui';
+import { H3, P } from 'quarks-ui';
 import { useTheme } from 'quarks-ui/dist/ds/hooks';
 
 import { ReactComponent as Linkedin } from '../../assets/icons/linkedin.svg';

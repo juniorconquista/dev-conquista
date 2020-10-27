@@ -4,17 +4,17 @@ export default function (dark = false) {
         get primary() {
             return {
                 default: this.dark ? '#25262A' : '#efefef',
+                contrast: this.dark ? '#25262A' : '#efefef',
                 dark: '#25262A',
                 light: '#efefef',
-                contrast: '#ffffff',
             };
         },
         get secondary() {
             return {
                 default: this.dark ? '#da13fd' : '#da13fd',
+                contrast: this.dark ? '#da13fd' : '#25262A',
                 dark: '#25262A',
                 light: '#da13fd',
-                contrast: '#1B2B3A',
             };
         },
         danger: {

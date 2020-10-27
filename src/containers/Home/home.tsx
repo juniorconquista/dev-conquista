@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
+import { Box } from 'quarks-ui';
 
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';

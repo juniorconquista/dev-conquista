@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { H3, Span } from 'quarks-ui/dist/ds/typography';
+import { H3, Span } from 'quarks-ui';
 
 import { renderStrictTags } from '../../utils/functions';
 

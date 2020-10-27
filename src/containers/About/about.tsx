@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from 'styled-components';
-import { Box } from 'quarks-ui/dist/ds/subatomicParticles';
-import { H2, H3, P } from 'quarks-ui/dist/ds/typography';
+import { Box } from 'quarks-ui';
+import { H2, H3, P } from 'quarks-ui';
 import { useTheme } from 'quarks-ui/dist/ds/hooks';
 
 import { ReactComponent as ReactJs } from '../../assets/icons/reactjs.svg';
